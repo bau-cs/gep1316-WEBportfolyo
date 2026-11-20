@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hüseyin Can Sevinç ile profesyonel ve akademik konularda iletişim kurun.">
+  <meta name="theme-color" content="#0c1d32"><title>İletişim | Hüseyin Can Sevinç</title>
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Ana içeriğe geç</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Hüseyin Can Sevinç ana sayfa"><span class="brand-mark" aria-hidden="true">HCS</span><span class="brand-copy"><strong>Hüseyin Can Sevinç</strong><small>AVIATION × TECHNOLOGY</small></span></a>
+    <button class="icon-button menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="primary-navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Ana gezinme"><a class="nav-link" href="index.html">Ana Sayfa</a><a class="nav-link" href="about.html">Hakkımda</a><a class="nav-link" href="projects.html">Projeler</a><a class="nav-link is-active" aria-current="page" href="contact.html">İletişim</a></nav>
+    <button class="theme-toggle" type="button" aria-label="Koyu temaya geç" aria-pressed="false"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg><span class="theme-label">Koyu mod</span></button>
+  </div></header>
+  <main id="main-content">
+    <section class="page-hero page-hero-compact"><div class="container page-hero-inner"><p class="eyebrow">PORTFOLYO / İLETİŞİM</p><h1>Bir sonraki fikri<br><span class="text-gradient">birlikte konuşalım.</span></h1><p>Akademik çalışmalar, yazılım projeleri veya havacılık teknolojileri hakkında mesaj bırakabilirsin.</p></div></section>
+    <section class="section"><div class="container contact-layout">
+      <div class="contact-intro"><p class="eyebrow">İLETİŞİM KANALLARI</p><h2>Bağlantıda kalalım.</h2><p>Profesyonel çalışmalarımı ve akademik bağlamımı aşağıdaki bağlantılardan inceleyebilirsin.</p>
+        <div class="contact-link-list">
+          <a class="contact-link-item" href="https://github.com/bau-cs/Flight-Training-Record-Management-System" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon" aria-hidden="true">⌘</span><span><strong>GitHub proje deposu</strong><small>Uçuş Eğitim Kayıt ve Saat Takip Sistemi</small></span><b aria-hidden="true">↗</b></a>
+          <a class="contact-link-item" href="https://bau.edu.tr/" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon" aria-hidden="true">◎</span><span><strong>Bahçeşehir Üniversitesi</strong><small>Akademik kurum bağlantısı</small></span><b aria-hidden="true">↗</b></a>
+        </div>
+        <div class="privacy-mini"><span aria-hidden="true">◈</span><p>Gizlilik önceliğimdir. Bu sayfada telefon numarası veya ev adresi istenmez.</p></div>
+      </div>
+      <div class="contact-form-card"><div class="form-heading"><span class="form-step">01 — MESAJ FORMU</span><h2>Mesajını yaz.</h2><p class="form-required-note"><span aria-hidden="true">*</span> işaretli alanlar zorunludur.</p></div>
+        <form id="contact-form" novalidate>
+          <div class="form-field"><label for="full-name">Ad soyad <span aria-hidden="true">*</span></label><input id="full-name" name="name" type="text" autocomplete="name" minlength="2" maxlength="70" required placeholder="Adını ve soyadını yaz"><small class="field-error" id="name-error"></small></div>
+          <div class="form-field"><label for="email-address">E-posta adresi <span aria-hidden="true">*</span></label><input id="email-address" name="email" type="email" autocomplete="email" maxlength="120" required placeholder="ornek@eposta.com"><small class="field-error" id="email-error"></small></div>
+          <div class="form-field"><label for="topic">Konu <span aria-hidden="true">*</span></label><select id="topic" name="topic" required><option value="">Bir konu seç</option><option value="project">Proje / iş birliği</option><option value="academic">Akademik çalışma</option><option value="aviation">Havacılık teknolojileri</option><option value="other">Diğer</option></select><small class="field-error" id="topic-error"></small></div>
+          <div class="form-field"><label for="message">Mesaj <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="5" minlength="10" maxlength="1200" required placeholder="Mesajını buraya yaz..."></textarea><div class="field-foot"><small class="field-error" id="message-error"></small><small id="message-count">0 / 1200</small></div></div>
+          <button class="button button-primary form-submit" type="submit">Mesajı kontrol et <span aria-hidden="true">↗</span></button>
+          <p class="privacy-notice"><strong>Gizlilik notu:</strong> Bu form eğitim amaçlı bir ön yüz doğrulama örneğidir. Mesajlar herhangi bir sunucuya gönderilmez, saklanmaz veya üçüncü taraflarla paylaşılmaz. Formu doldururken hassas kişisel bilgi yazma.</p>
+          <div class="form-feedback" id="form-feedback" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="index.html">HCS<span>.</span></a><p>© <span data-current-year>2026</span> Hüseyin Can Sevinç · GEP1316 Web Portfolyosu</p><a href="#main-content" class="back-top">Yukarı çık ↑</a></div></footer>
+</body></html>

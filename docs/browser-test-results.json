@@ -1,0 +1,68 @@
+[
+  {
+    "test": "desktop_home",
+    "overflow": false,
+    "scroll_width": 1440,
+    "client_width": 1440
+  },
+  {
+    "test": "tablet_home",
+    "overflow": false,
+    "scroll_width": 768,
+    "client_width": 768
+  },
+  {
+    "test": "mobile_home",
+    "overflow": false,
+    "scroll_width": 390,
+    "client_width": 390
+  },
+  {
+    "test": "mobile_menu",
+    "opened": true,
+    "aria_expanded": "true"
+  },
+  {
+    "test": "about.html",
+    "title": "Hakkımda | Hüseyin Can Sevinç",
+    "h1": "Merak ettiğim şey,\nnasıl daha iyi yapılır?"
+  },
+  {
+    "test": "projects.html",
+    "title": "Projeler | Hüseyin Can Sevinç",
+    "h1": "Fikirden çözüme,\nadım adım."
+  },
+  {
+    "test": "contact.html",
+    "title": "İletişim | Hüseyin Can Sevinç",
+    "h1": "Bir sonraki fikri\nbirlikte konuşalım."
+  },
+  {
+    "test": "project_filter_search",
+    "python_visible": 3,
+    "reserve_visible": 1,
+    "empty_state": true
+  },
+  {
+    "test": "dark_mode",
+    "theme": "dark",
+    "aria_pressed": "true"
+  },
+  {
+    "test": "contact_form",
+    "blank_error": "Bu alan zorunludur.",
+    "invalid_email": "Gecerli bir e-posta adresi girin.",
+    "valid_feedback": "Form dogrulamasi basarili. Bu egitim demosunda mesaj kaydedilmedi veya gonderilmedi.",
+    "form_reset": true
+  },
+  {
+    "test": "fuel_calculator_unit_tests",
+    "returncode": 0,
+    "output": "test_negative_flight_time_rejected (test_main.FuelCalculatorTests.test_negative_flight_time_rejected) ... ok\ntest_reserve_is_not_sufficient (test_main.FuelCalculatorTests.test_reserve_is_not_sufficient) ... ok\ntest_standard_calculation (test_main.FuelCalculatorTests.test_standard_calculation) ... ok\ntest_zero_consumption_rejected (test_main.FuelCalculatorTests.test_zero_consumption_rejected) ... ok\ntest_zero_reserve (test_main.FuelCalculatorTests.test_zero_reserve) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+  },
+  {
+    "test": "python_compile",
+    "returncode": 0,
+    "stderr": ""
+  }
+]
