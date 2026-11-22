@@ -9,9 +9,8 @@
 
 GitHub Pages yayını açıldıktan sonra bağlantı şu biçimde olacaktır:
 
-`https://bau-cs.github.io/gep1316-portfolyo/`
+`https://bau-cs.github.io/gep1316-WEBportfolyo/`
 
-> Bu paket henüz herhangi bir GitHub hesabına yüklenmediği için canlı bağlantı henüz oluşmamıştır. Depo `gep1316-portfolyo` adıyla oluşturulup GitHub Pages etkinleştirildiğinde yukarıdaki kullanıcı adı alanı gerçek hesap adıyla değiştirilmelidir.
 
 ## Site sayfaları
 
